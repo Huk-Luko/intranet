@@ -1,11 +1,29 @@
 {
   "name": "luhu",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renamicz/renami.git"
+  },
+  "bugs": {
+    "url": "https://github.com/renamicz/renami/issues"
+  },
+  "homepage": "https://github.com/renamicz/renami#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.10.0"
+  }
 }

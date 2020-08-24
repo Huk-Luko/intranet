@@ -24,6 +24,8 @@ mongoose.connect('mongodb://renami:renami2020@161.35.197.133:27017/renami', {
 
 const app = express();
 
+//app.use(allowCrossDomain)
+
 // Middleware
 app.use(bodyParser.json());
 app.use(cors());
